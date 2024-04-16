@@ -7,15 +7,18 @@ window.addEventListener("mousemove",function(e){
   cursor.style.top = y-25+"px";
 })
 
-var cursorOffset = {
-  left : -30
-, top  : -20
+//button
+let mybutton = document.getElementById("myBtn");
+
+function scrollFunction() {
+  if (document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
 }
 
-document.getElementById('container').addEventListener("mousemove", function (e) {
- var $cursor = document.getElementById('cursor')
-
- $cursor.style.left = (e.pageX - cursorOffset.left) + 'px';
- $cursor.style.top = (e.pageY - cursorOffset.top) + 'px';
-
-}, false);
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
