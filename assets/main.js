@@ -7,6 +7,16 @@ window.addEventListener("mousemove",function(e){
   cursor.style.top = y-25+"px";
 })
 
+var cursorOffset = {
+  left : -30
+, top  : -20
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.body.style.cursor = "none";
+  cursor.style.display = "block";
+});
+
 //button
 let mybutton = document.getElementById("myBtn");
 
