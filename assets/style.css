@@ -348,7 +348,7 @@ article.contests {
     }
 
     100% {
-        width: 80%;
+        width: 65%;
     }
 }
 
@@ -358,7 +358,7 @@ article.contests {
     }
 
     100% {
-        width: 65%;
+        width: 50%;
     }
 }
 
@@ -368,7 +368,7 @@ article.contests {
     }
 
     100% {
-        width: 70%;
+        width: 55%;
     }
 }
 
@@ -506,7 +506,7 @@ td {
     }
 
     100% {
-        transform: rotate(120deg);
+        transform: rotate(100deg);
     }
 }
 
