@@ -130,6 +130,9 @@ nav a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    font-family: 標楷體;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 h1.title {
